@@ -1,2 +1,1 @@
-print("Hello git")
-name = "Alessandro Di Marzo"
+print("Hello Alessandro")
