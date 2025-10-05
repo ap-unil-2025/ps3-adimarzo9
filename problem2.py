@@ -68,11 +68,11 @@ def temperature_converter():
 
     if current_unit in ("C","c") :
         celsius = temperature_value
-        print(temperature_value, "celsius =", celsius_to_fahrenheit(celsius) , "fahrenheit")
+        print(temperature_value, "celsius =", round(celsius_to_fahrenheit(celsius),2) , "fahrenheit")
         
     else :
         fahrenheit = temperature_value
-        print(temperature_value, "fahrenheit =", fahrenheit_to_celsius(fahrenheit), "celsius")
+        print(temperature_value, "fahrenheit =", round(fahrenheit_to_celsius(fahrenheit),2), "celsius")
 
 # Test cases (DO NOT MODIFY)
 if __name__ == "__main__":
