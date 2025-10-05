@@ -18,9 +18,15 @@ def get_numbers_from_user():
         # TODO: Check if user typed 'done'
         # TODO: Try to convert to float and add to list
         # TODO: Handle invalid input gracefully
-        pass
 
-    return numbers
+        user_entry = input()
+       
+        if user_entry.lower() == "done":
+            break
+
+    pass
+
+    return numbers    
 
 
 def analyze_numbers(numbers):
