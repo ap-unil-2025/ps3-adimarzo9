@@ -1,0 +1,6 @@
+387d895 Personalize hello message
+64a86be New file hello
+aa5c754 Initial commit: Add README
+241f39e Add my name and date
+7bcb689 Add GitHub Classroom autograding configuration
+2dc2daa Initial commit
